@@ -1,0 +1,113 @@
+@font-face {
+  font-family: myfont;
+  src: url(../Fonts/Cristola\ Display.ttf);
+}
+@font-face{
+  font-family: navbodyfont;
+  src: url(../Fonts/antebas\ medium.otf);
+}
+.navbar {
+  /* background-color: #333; */
+  color: white;
+  padding-top: 40px;
+  padding: 20px 20px;
+  z-index: 5;
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-logo {
+  font-size: 2em;
+  /* letter-spacing: 2px; */
+  color: rgb(252, 252, 252);
+  font-family: myfont;
+}
+.navbar-logo a{
+  text-decoration: none;
+ color: white;
+}
+.navbar-links-container {
+  display: flex;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.navbar-links a {
+  font-size: 15px;
+  /* font-weight: 100; */
+  color: rgb(255, 255, 255); /* Navbar links text color */
+  text-decoration: none;
+  padding: 0 15px;
+  font-family: navbodyfont;
+}
+
+.navbar-links.active {
+  display: block; /* Ensure the links container displays as block */
+}
+
+.navbar-toggle {
+  display: none; /* Initially hidden, show in media query for responsiveness */
+}
+
+.navbar-toggle i {
+  font-size: 1.5em;
+  cursor: pointer;
+  color: rgb(255, 255, 255); /* Navbar toggle icon color */
+}
+
+
+@media screen and (max-width:1024px) {
+  .navbar-logo{
+    font-size: 20px;
+  }
+  .navbar-links a{
+    font-size: 12px;
+  }
+}
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .navbar-links-container {
+    display: none; /* Hide links container initially */
+  }
+
+  .navbar-links-container.active {
+    display: block; /* Show links container when active */
+    flex-direction: column; /* Stack links vertically */
+    position: absolute; /* Absolute positioning to overlay */
+    top: 60px; /* Adjust based on navbar height */
+    right: 0;
+    background-color: #919191;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-links {
+    flex-direction: column; /* Stack links vertically */
+  }
+
+  .navbar-links a {
+    padding: 15px 0;
+    display: block; /* Ensure links are displayed as block elements */
+  }
+
+  .navbar-toggle {
+    display: block; /* Show toggle button on smaller screens */
+  }
+}
+
+@media screen and (max-width:500px) {
+  .navbar-logo a{
+    font-size: 12px;
+  }
+  
+}

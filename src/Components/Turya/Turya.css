@@ -1,0 +1,755 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: myfont;
+    src: url(../Fonts/Cristola\ Display.ttf);
+  }
+  @font-face{
+    font-family: bodyfont;
+    src: url(../Fonts/antebas\ medium.otf);
+  }
+  .custom-navbars .navbar-logo a,
+.custom-navbars .navbar-links a,
+.custom-navbars .navbar-toggle i {
+  color: #000000; /* Change to your desired color */
+}
+.spclchar{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.turya-landing-page{
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 90vh;
+    background-image: url(./Turya-Images/turya-4\ 1.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: 0 0;
+    position: relative;
+}
+
+.turya-land-head-up{
+    /* border:1px solid red ; */
+    padding-top: 20px;
+}
+/* .turya-land-col1{
+    border: 1px solid black;
+    font-size: 32px;
+    font-family: myfont;
+    text-align: end;
+    padding-top: 50px;
+    position: relative; 
+     left: 100px;
+} */
+/* .turya-land-col2{
+    border: 1px solid rgb(201, 0, 0);
+} */
+
+.turya-land-col3 img{
+    width: 200px;
+}
+.turya-land-down{
+    font-size: 32px;
+    font-family: myfont;
+    margin-left: 60px;
+    /* margin-top: 700px; */
+    color: white;
+ 
+}
+/* Language buttons inside the first container */
+.language-buttons {
+    /* margin-top: -10px; */
+    /* border: 1px solid black; */
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    
+  }
+  
+  .language-buttons .btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+    border: none;
+  }
+  
+  .turya-landing-col1{
+    font-family: myfont;
+    font-size: 50px;
+    color: white;
+    
+  }
+  .turya-landing-col2{
+    font-family: myfont;
+    font-size: 30px;
+    text-align: end;
+  }
+  .logo-turya-page{
+    width: 150px;
+    margin-left: -50px;
+}
+/* ...................................................... Turya Second Container ................................. */
+.turya-second{
+    width: 100%;
+    /* padding: auto; */
+    /* height: 80vh; */
+    /* height: 50vh; */
+    /* background-color: rgb(0, 0, 0); */
+}
+.turya-menus-col{
+    text-align: center;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+.turya-heading{
+    /* border: 1px solid red; */
+}
+
+.turya-menus-col h5{
+    /* margin-top: 20px; */
+}
+.turya-menus-col ul{
+
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+.turya-menus-col li{
+    /* display: flex; */
+     list-style: none;
+     color: black;
+     font-weight: 500;
+     font-family: bodyfont;
+     font-size: 14px;
+     text-decoration: none;
+     color: rgb(54, 54, 54);
+}
+.menu-links{
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+
+}
+.turya-heading{
+    font-size: 100px;
+    font-family: myfont;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 80px;
+    color:black;
+}
+.turya-product-row{
+    /* margin-top: 20px; */
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+.product-title{
+    display: flex;
+}
+.product-title h5{
+    margin-left: 50px;
+}
+.product-col{
+    padding: 10px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.product-img{
+    width: 80%;
+    /* background-color: #fff; */
+}
+.product-img-2-row{
+    width:100%;
+}
+.product4-img{
+    width: 80%;
+    /* border: 1px solid black; */
+}
+.product4-col{
+    text-align:right;
+}
+.product5-img{
+    width: 80%;
+
+}
+.product6-img{
+    width: 90%;
+    margin-top: 40px;
+}
+.product7-img{
+    width: 60%;
+}
+.product8-img{
+    width: 80%;
+}
+.product12-img{
+    width: 65%;
+}
+.turyamain-mirror{
+    text-align:end;
+    padding-right: 50px;
+    font-family: bodyfont;
+}
+.turyamain-seating{
+    font-family: bodyfont;
+    text-align: start;
+    margin-top: -50px;
+    padding-left: 50px;
+}
+.turyamain-seating2{
+    font-family: bodyfont;
+    text-align: center;
+}
+.turyamain-teapoy{
+    font-family: bodyfont;
+    text-align: start;
+    padding-left: 50px;
+}
+.turyamain-trays{
+    font-family: bodyfont;
+    text-align: start;
+    margin-top: -60px;
+    padding-left: 150px;
+}
+.turyamain-bedroom{
+    font-family: bodyfont;
+    text-align: start;
+    padding-left: 70px;
+}
+.turyamain-drawers{
+    font-family: bodyfont;
+    text-align: center;
+}
+/* ............................................. Media Query .............................................  */
+@media only screen and (max-width:2560px) {
+    .turya-landing-page{
+           height: 140vh;
+           background-size: cover;
+           background-repeat: no-repeat;
+           object-fit: cover;
+    }
+   .turya-landing-col1{
+    /* font-size: 35px; */
+   }
+   .turya-menus-col ul{
+    gap: 120px;
+   }
+    .turya-menus-col h5{
+        font-size: 3em;
+    }
+    .turya-menus-col li {
+        font-size: 1.5em;
+    }
+    .turya-heading{
+        font-size: 10em;
+    }
+    .product-title h6{
+        font-size: 2em;
+    }
+    .product-title h5{
+        font-size: 2em;
+    }
+    .turyamain-mirror{
+        text-align:end;
+        padding-right: 100px;
+        font-family: bodyfont;
+    }
+    .turyamain-seating{
+        font-family: bodyfont;
+        text-align: start;
+        margin-top: -70px;
+        padding-left: 150px;
+    }
+    .turyamain-teapoy{
+        font-family: bodyfont;
+        text-align: start;
+        padding-left: 100px;
+    }
+    .turyamain-trays{
+        font-family: bodyfont;
+        text-align: start;
+        margin-top: -100px;
+        padding-left: 200px;
+    }
+    .turyamain-bedroom{
+        font-family: bodyfont;
+        text-align: start;
+        padding-left: 150px;
+    }
+}
+@media only screen and (max-width:2400px) {
+    .turya-landing-page{
+        height: 140vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .turya-menus-col ul{
+        gap: 100px;
+       }
+    .turya-menus-col h5{
+        font-size: 3em;
+    }
+    .turya-menus-col li {
+        font-size: 1.5em;
+    }
+    .turya-heading{
+        font-size: 10em;
+    }
+    .product-title h6{
+        font-size: 2em;
+    }
+    .product-title h5{
+        font-size: 2em;
+    }
+}
+@media only screen and (max-width:2240px) {
+    .turya-landing-page{
+        height: 125vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .turya-menus-col ul{
+        gap: 90px;
+       }
+    .turya-menus-col li {
+        font-size: 1.5em;
+    }
+    .turya-heading{
+        font-size: 10em;
+    }
+    .product-title h6{
+        font-size: 2em;
+    }
+    .product-title h5{
+        font-size: 2em;
+    }
+}
+@media only screen and (max-width:2000px) {
+    .turya-landing-page{
+        height: 120vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .turya-land-down{
+        /* margin-top: 177vh; */
+        font-size: 3em;
+    }
+    .turya-land-col1{
+        font-size: 3em;
+    }
+    .turya-menus-col h5{
+        font-size: 2em;
+    }
+    .turya-menus-col li {
+        font-size: 1.3em;
+    }
+    .turya-heading{
+        font-size: 10em;
+    }
+    .product-title h6{
+        font-size: 1.5em;
+    }
+    .product-title h5{
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-width:1800px) {
+    .turya-landing-page{
+        height: 110vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .turya-menus-col ul{
+        gap: 70px;
+       }
+    .turya-menus-col h5{
+        font-size: 2em;
+    }
+    .turya-menus-col li {
+        font-size: 1.3em;
+    }
+    .turya-heading{
+        font-size: 10em;
+    }
+    .product-title h6{
+        font-size: 1.5em;
+    }
+    .product-title h5{
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-width:1728px) {
+    .turya-landing-page{
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .turya-menus-col ul{
+        gap: 65px;
+       }
+    .turya-menus-col h5{
+        font-size: 2em;
+    }
+    .turya-menus-col li {
+        font-size: 1.2em;
+    }
+    .turya-heading{
+        font-size: 10em;
+    }
+    .product-title h6{
+        font-size: 1.5em;
+    }
+    .product-title h5{
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-width:1600px) {
+    .turya-landing-page{
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .turya-menus-col ul{
+        gap: 55px;
+       }
+    .turya-menus-col h5{
+        font-size: 2em;
+    }
+    .turya-menus-col li {
+        font-size: 1.2em;
+    }
+    .turya-heading{
+        font-size: 10em;
+    }
+    .product-title h6{
+        font-size: 1.5em;
+    }
+    .product-title h5{
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-width:1440px) {
+    .turya-landing-page{
+           height: 100vh;
+    }
+    .turya-land-down{
+        /* margin-top:100vh; */
+        font-size: 2em;
+    }
+    .turya-land-col1{
+        font-size: 2em;
+    }
+    .turya-menus-col h5{
+        font-size: 1.5em;
+    }
+    .turya-menus-col li {
+        font-size: 1em;
+    }
+    .turya-heading{
+        font-size: 6em;
+    }
+    .product-title h6{
+        font-size: 1.2em;
+    }
+    .product-title h5{
+        font-size: 1.2em;
+    }
+    .turyamain-mirror{
+        text-align:end;
+        padding-right: 50px;
+        font-family: bodyfont;
+    }
+    .turyamain-seating{
+        font-family: bodyfont;
+        text-align: start;
+        margin-top: -50px;
+        padding-left: 50px;
+    }
+    .turyamain-seating2{
+        font-family: bodyfont;
+        text-align: center;
+    }
+    .turyamain-teapoy{
+        font-family: bodyfont;
+        text-align: start;
+        padding-left: 50px;
+    }
+    .turyamain-trays{
+        font-family: bodyfont;
+        text-align: start;
+        margin-top: -60px;
+        padding-left: 150px;
+    }
+    .turyamain-bedroom{
+        font-family: bodyfont;
+        text-align: start;
+        padding-left: 70px;
+    }
+    .turyamain-drawers{
+        font-family: bodyfont;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:1366px) {
+    .turya-landing-page{
+           height: 90vh;
+    }
+    .turya-menus-col ul{
+        gap: 50px;
+       }
+    .turya-menus-col h5{
+        font-size: 1.5em;
+    }
+    .turya-menus-col li {
+        font-size: 15px;
+    }
+    .turya-heading{
+        font-size: 6em;
+    }
+    .product-title h6{
+        font-size: 1.2em;
+    }
+    .product-title h5{
+        font-size: 1.2em;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .turya-landing-page{
+           height: 100vh;
+           background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .turya-land-down{
+        margin-top: 80vh;
+        font-size: 2em;
+    }
+    .turya-landing-col1{
+        padding-top: 10px;
+        /* left: 60px; */
+        font-size: 30px;
+    }
+    .turya-landing-col2{
+        font-size: 20px;
+    }
+    .turya-landing-col2 img{
+        width: 100px;
+    }
+    .turya-menus-col ul{
+        gap: 45px;
+       }
+    .turya-menus-col h5{
+        font-size: 1.2em;
+    }
+    .turya-menus-col li {
+        font-size: 10px;
+    }
+    .turya-heading{
+        font-size: 5em;
+    }
+    .product-title h6{
+        font-size: 1em;
+    }
+    .product-title h5{
+        font-size: 1em;
+    }
+}
+@media only screen and (max-width:768px) {
+    .turya-landing-page{
+        height: 100vh;
+        background-size: cover;
+     background-repeat: no-repeat;
+    }
+    .turya-land-down{
+        margin-top: 80vh;
+        font-size: 1.5em;
+    }
+    .turya-landing-col1{
+       
+        /* left: 60px; */
+        font-size: 25px;
+    }
+    .turya-landing-col2{
+        font-size: 14px;
+    }
+    .turya-landing-col2 img{
+        width: 80px;
+    }
+    .turya-menus-col h5{
+        font-size: 1.2em;
+    }
+    .turya-menus-col li {
+        font-size: 0.8em;
+    }
+    .turya-heading{
+        font-size: 3em;
+    }
+    .product-title h6{
+        font-size: 1em;
+    }
+    .product-title h5{
+        font-size: 1em;
+    }
+}
+@media only screen and (max-width:500px) {
+    .turya-landing-page{
+           height: 45vh;
+           background-image: url('./Turya-Images/turya-landing-mobile.jpg');
+           background-repeat: no-repeat;
+           background-size: cover;
+    }
+    .turya-menus-col ul{
+        gap: 25px;
+       }
+    .turya-land-head-up{
+        justify-content: center;
+    }
+    .turya-landing-col1{
+    padding-top: 20px;
+        left: 45px;
+        font-size: 17px;
+    }
+    .turya-landing-col2{
+        font-size: 10px;
+    }
+    .turya-land-col2 img{
+        width: 60px;
+        margin-top: 15px;
+    }
+    .turya-second-row{
+        justify-content: center;
+    }
+    .turya-menus-col{
+        text-align: center;
+    }
+    .turya-menus-col h5{
+        font-size: 1.2em;
+    }
+    .turya-menus-col li {
+        font-size: 10px;
+        text-align: center;
+       margin-right: 20px;
+    }
+    
+    .turya-heading{
+        font-size: 2em;
+        text-align: center;
+       
+    }
+    .product-title h6{
+        font-size: 0.8em;
+    }
+    .product-title h5{
+        font-size: 0.8em;
+    }
+    .product-col{
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+}
+@media only screen and (max-width:400px) {
+    .turya-landing-page{
+           height: 50vh;
+           background-size: cover;
+           background-repeat: no-repeat;
+           object-fit: cover;
+    }
+    .turya-land-down{
+        margin-top: 33vh;
+        font-size: 1.2em;
+        margin-left: 10px;
+    }
+    .turya-land-col1{
+        padding-top: 30px;
+        /* left: 42px; */
+        font-size: 1em;
+    }
+    .turya-land-col2{
+        margin-right: 0px;
+    }
+    .turya-land-col2 img{
+        width: 60px;
+        margin-top: 15px;  
+    }
+    .turya-second-row{
+        justify-content: center;
+    }
+    .turya-menus-col{
+        text-align: center;
+    }
+    .turya-menus-col h5{
+        font-size: 1.2em;
+    }
+    .turya-menus-col li {
+        font-size: 0.8em;
+        text-align: center;
+       margin-right: 20px;
+    }
+    
+    .turya-heading{
+        font-size: 2em;
+        text-align: center;
+       
+    }
+    .product-title h6{
+        font-size: 0.8em;
+    }
+    .product-title h5{
+        font-size: 0.8em;
+    }
+}
+@media only screen and (max-width:330px) {
+    .turya-landing-page{
+           height: 50vh;
+           background-size: cover;
+           background-repeat: no-repeat;
+    }
+    .turya-land-down{
+        margin-top: 28vh;
+        font-size: 1.2em;
+        margin-left: 0px;
+    }
+    .turya-land-col1{
+        padding-top: 20px;
+        /* left: 42px; */
+        font-size: .5em;
+    }
+    .turya-land-col2{
+        margin-right: 0px;
+    }
+    .turya-land-col2 img{
+        width: 60px;
+        margin-top: 15px;  
+    }
+    .turya-second-row{
+        justify-content: center;
+    }
+    .turya-menus-col{
+        text-align: center;
+    }
+    .turya-menus-col h5{
+        font-size: 1.2em;
+    }
+    .turya-menus-col li {
+        font-size: 0.8em;
+        text-align: center;
+       margin-right: 20px;
+    }
+    
+    .turya-heading{
+        font-size: 2em;
+        text-align: center;
+       
+    }
+    .product-title h6{
+        font-size: 0.8em;
+    }
+    .product-title h5{
+        font-size: 0.8em;
+    }
+}

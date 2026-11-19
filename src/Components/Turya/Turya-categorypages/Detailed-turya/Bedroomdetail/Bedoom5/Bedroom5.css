@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: myfont;
+    src: url(../../../../../Fonts/Cristola\ Display.otf);
+}
+@font-face {
+    font-family: bodyfont;
+    src: url(../../../../../Fonts/antebas\ medium.otf);
+}
+.inner-container1{
+    width: 99%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+.inner-container1 h1{
+    font-family: myfont;
+}
+.modern3-col3{
+    display: flex;
+    align-items: end;
+}
+.modern1{
+width: 100%;
+}
+.modern2{
+    width: 100%;
+}
+.modern3{
+    width: 100%;
+}
+.modern4{
+    width: 100%;
+}
+.product-description{
+    font-family: bodyfont;
+}
+.product-description-para{
+    margin-top: 70px;
+}
+.description-heads{
+    text-decoration: underline;
+}
+.arrow-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.arrowleft{
+    width: 50px;
+}
+.arrowright{
+    width: 50px;
+}
+.product-description-mobile{
+    display: none;
+}
+@media screen and (max-width:500px) {
+    
+    .product-description{
+        display: none;
+    }
+    .product-description-mobile{
+        display: block;
+        font-family: bodyfont;
+        padding-left: 20px;
+    }
+}

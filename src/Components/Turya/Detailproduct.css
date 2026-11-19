@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: myfont;
+    src: url(../Fonts/Cristola\ Display.ttf);
+  }
+  @font-face{
+    font-family: bodyfont;
+    src: url(../Fonts/antebas\ medium.otf);
+  }
+.detail-product{
+    margin-top: 30px;
+}
+.contain{
+    width: 85%;
+    margin: 0 auto;
+}
+.detail-product{
+    background-color: rgb(238, 229, 219);
+
+}
+.product-image{
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+}
+.product-detail-head{
+    font-family: myfont;
+    float: left;
+    font-size: 25px;
+}
+.para-head{
+    text-align: center;
+    /* float: right; */
+    font-family: bodyfont;
+}
+.product-detail-para{
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: bodyfont;
+    float: right;
+    padding-left: 195px;
+}
+/* ............................................. Media Query .....................................  */
+@media screen and (max-width:2560px) {
+    .product-detail-head{
+        font-size: 40px;
+    }
+    .para-head{
+        font-size: 35px;
+    }
+    .product-detail-para{
+       font-size: 25px;
+       padding-left: 385px;
+    }
+}
+@media screen and (max-width:1440px) {
+    .product-detail-head{
+        font-size: 30px;
+    }
+    .para-head{
+        font-size: 25px;
+    }
+    .product-detail-para{
+       font-size: 16px;
+       padding-left: 195px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .product-detail-head{
+        font-size: 25px;
+    }
+    .para-head{
+        font-size: 20px;
+    }
+    .product-detail-para{
+       font-size: 14px;
+       padding-left: 125px;
+    }
+}
+@media screen and (max-width:768px) {
+    .product-detail-head{
+        font-size: 20px;
+    }
+    .para-head{
+        font-size: 16px;
+    }
+    .product-detail-para{
+       font-size: 12px;
+       padding-left: 85px;
+    }
+}
+@media screen and (max-width:500px) {
+    .product-detail-head{
+        font-size: 18px;
+    }
+    .para-head{
+        font-size: 15px;
+    }
+    .product-detail-para{
+       font-size: 12px;
+       padding-left: 0px;
+    }
+}

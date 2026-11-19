@@ -1,0 +1,162 @@
+/* First Row Container */
+@font-face {
+    font-family: myfont;
+    src: url(../../../Fonts/Cristola\ Display.otf);
+}
+.turyadesignone-container{
+    padding-top: 50px;
+    overflow: hidden;
+}
+.turyaMirror-Firstcolumn, .turyaMirror-Secondcolumn{
+    padding: 0;
+    margin: 0;
+}
+.TuryaMirror-Heading h1{
+    text-align: start;
+    padding-left: 35px;
+    font-family: myfont;
+}
+.TuryaMirrors-first-one,.TuryaMirrors-first-two{
+    text-align: center;
+}
+.TuryaMirrors-first-two{
+    text-align: end;
+}
+.TuryaMirrors-first-one img{
+    width: 60%;
+    height: auto;
+    margin-top: 120px;
+}
+.TuryaMirrors-first-two img{
+    width: 50%;
+    height: auto;
+}
+
+.TuryaMirrors-second-one,.TuryaMirrors-second-two,.TuryaMirrors-second-three{
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.TuryaMirrors-second-one img{
+    width: 60%;
+    height: auto;
+}
+.TuryaMirrors-second-two img{
+    width: 60%;
+    height: auto;
+}
+.TuryaMirrors-second-three img{
+    width: 70%;
+    height: auto;
+}
+
+
+/* Second Row Container */
+
+.Secondrow-Second-container{
+    align-self: flex-end;
+}
+.Firstone-inner-container{
+    text-align: end;
+}
+.Firstone-inner-container img{
+    width: 60%;
+    height: auto;
+}
+.secondone-inner-container{
+    text-align: center;
+}
+.secondone-inner-container img{
+    width: 45%;
+    height: auto;
+}
+.Thirdone-inner-container img{
+    width: 70%;
+    height: auto;
+}
+
+/* Next Arrow Container */
+.NextArrow-container-m{
+   position: relative;
+   left: 0;
+}
+.NextArrow-container{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-right: 15px;
+    gap: 10px;
+}
+.Next-Heading{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    text-decoration:none;
+}
+.Next-Arrow-img{
+    width: 30px;
+    height: 40px;
+    padding-bottom: 8px;
+}
+.victoriammirror-main-img{
+    width: 30%;
+}
+
+/* Third Row Container */
+
+.thirdrow-mirror-container{
+    align-items: center;
+    justify-content: center;
+}
+.thirdrow-innerfirst-conatiner, .thirdrow-innersecond-conatiner{
+    margin: 0;
+}
+.thirdrow-container-firstone, .thirdrow-container-secondone{
+    text-align: center;
+}
+
+.thirdrow-innerImage-one{
+    width: 50%;
+    height: auto;
+}
+.thirdrow-innerImage-two{
+    width: 50%;
+    height: auto;
+}
+.mirror1-img{
+    width: 60%;
+}
+/* Media Query */
+
+@media (max-width: 500px){
+    .TuryaMirrors-first-one img{
+        margin-top: 0px;
+    }
+    .TuryaMirrors-first-two{
+        text-align: center;
+    }
+    .Firstone-inner-container{
+        text-align: center;
+    }
+    .secondone-inner-container{
+        text-align: center;
+    }
+    .thirdrow-innerImage-one{
+        width: 50%;
+        height: auto;
+    }
+    .Thirdone-inner-container{
+        text-align: center;
+    }
+    .NextArrow-container{
+        /* padding-right: 15px; */
+        align-items: center;
+    }
+    .Next-Arrow-img{
+        width: 10%;
+        height: auto;
+        
+    }
+    
+}

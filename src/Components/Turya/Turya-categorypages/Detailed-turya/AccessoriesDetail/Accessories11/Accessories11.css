@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: myfont;
+    src: url(../../../../../Fonts/Cristola\ Display.otf);
+}
+@font-face {
+    font-family: bodyfont;
+    src: url(../../../../../Fonts/antebas\ medium.otf);
+}
+@font-face {
+    font-family: bodyfont2;
+    src: url(../../../../../Fonts/DMSans-Medium.ttf);
+}
+.inner-container1{
+    width: 99%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+.inner-container1 h1{
+    font-family: myfont;
+}
+.basichook3-col3{
+    display: flex;
+    align-items: end;
+}
+.basichook-col4{
+    display: flex;
+    align-items: center;
+}
+.basichook1{
+width: 55%;
+}
+.basichook2{
+    width: 80%;
+}
+.basichook3{
+    width: 100%;
+}
+.basichook4{
+    width: 90%;
+}
+.product-description-book{
+    font-family: bodyfont2;
+    margin-top: 100px;
+}
+
+.description-heads{
+    text-decoration: underline;
+}
+.arrow-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.arrowleft{
+    width: 50px;
+}
+.arrowright{
+    width: 50px;
+}
+.product-description-mobile-2{
+    display: none;
+}
+@media screen and (max-width:500px) {
+    
+    .product-description-book{
+        display: none;
+    }
+    .product-description-mobile-2{
+        display: block;
+        font-family: bodyfont2;
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+}

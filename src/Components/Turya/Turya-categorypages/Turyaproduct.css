@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: myfont;
+    src: url(../../Fonts/Cristola\ Display.otf);
+  }
+  @font-face{
+    font-family: bodyfont;
+    src: url(../../Fonts/antebas\ medium.otf);
+  }
+.turyaproduct{
+    width: 100%;
+    padding: auto;
+    /* height: 80vh; */
+    /* height: 50vh; */
+    background-color: rgb(255, 255, 255);
+
+}
+.specialchar{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.turya-second-row{
+  /* border: 1px solid black; */
+}
+.turya-menu-col-1 {
+    /* border: 1px solid red; */
+}
+.turya-menu-col{
+    /* border: 1px solid white; */
+}
+.turya-product-head{
+    /* border: 1px solid red; */
+    color: rgb(0, 0, 0);
+    font-family: myfont;
+    font-size: 3em;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.turya-menu-col-1 ul{
+    margin-top: 50px;
+}
+.turya-menu-col-1 li{
+     list-style: none;
+     color: black;
+     font-weight: 500;
+     font-family: bodyfont;
+     text-decoration: none;
+     color: rgb(54, 54, 54);
+}
+.turya-menu-col-1 li link{
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+
+}
+.product-grid {
+    margin-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+    /* border: 1px solid #ddd; */
+    /* border-radius: 4px; */
+    /* padding: 5px; */
+  }
+  .inner-row-product{
+    /* border: 1px solid rgb(0, 0, 0); */
+  }
+  /* .............................................. Media Query ................................................  */
+@media screen and (max-width:768px) {
+  .turya-product-head{
+    font-size: 2em;
+  }
+}
+@media screen and (max-width:500px) {
+  .turya-product-head{
+    font-size: 2em;
+  }
+  .turya-menu-col-1 h5{
+    text-align: center;
+  }
+  .turya-menu-col-1 li{
+       text-align: center;
+       margin-left: -30px;
+  }
+}
+  

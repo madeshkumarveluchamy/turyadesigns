@@ -1,0 +1,912 @@
+/* First Row Tables Container */
+@font-face {
+    font-family: myfont;
+    src: url(../../../Fonts/Cristola\ Display.otf);
+}
+.turyadesign-Tables-container {
+  
+    overflow: hidden;
+}
+
+.turyaTables-Dinning-Firstcolumn,
+.turyaTables-Dinning-Secondcolumn {
+    padding: 0;
+    margin: 0;
+}
+
+.turyaTables-Dinning-Secondcolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.turyaTables-Heading h1 {
+    text-align: start;
+    padding-left: 30px;
+    font-family: myfont;
+}
+
+.turyaTables-Dinning-first-one,
+.turyaTables-Dinning-first-two,
+.turyaTables-Dinning-first-oneplus,
+.turyaTables-Dinning-first-three {
+    text-align: center;
+}
+
+.turyaTables-Dinning-first-one {
+    margin-top: 120px;
+}
+
+.turyaTables-Dinning-first-one img {
+    width: 80%;
+    height: auto;
+}
+
+.turyaTables-Dinning-first-oneplus img {
+    width: 70%;
+    height: auto;
+}
+
+.turyaTables-Dinning-first-two img {
+    width: 50%;
+    height: auto;
+}
+
+.turyaTables-Dinning-first-three img {
+    width: 90%;
+    height: auto;
+}
+
+
+.turyaTables-Dinning-second-one,
+.turyaTables-Dinning-second-two,
+.turyaTables-Dinning-second-three {
+    text-align: center;
+}
+
+.turyaTables-Dinning-second-one img {
+    width: 70%;
+    height: auto;
+}
+
+.turyaTables-Dinning-second-two img {
+    width: 70%;
+    height: auto;
+}
+
+.turyaTables-Dinning-second-three img {
+    width: 70%;
+    height: auto;
+}
+
+/* Second Row SideTables Container */
+
+.turyaTables-SideTables-Firstcolumn,
+.turyaTables-SideTables-Secondcolumn,
+.turyaTables-SideTables-Thirdcolumn,
+.turyaTables-SideTables-Fourthcolumn {
+    text-align: center;
+    align-self: center;
+}
+
+.turyaTables-SideTables-Firstcolumn img {
+    width: 80%;
+    height: auto;
+}
+
+.turyaTables-SideTables-Secondcolumn img {
+    width: 100%;
+    height: auto;
+}
+
+.turyaTables-SideTables-Thirdcolumn img {
+    width: 100%;
+    height: auto;
+}
+
+/* Second Row SideTables Second Container */
+
+.turyaTables-SideTables-container {
+    margin-top: 30px;
+}
+
+.turyaTables-SideTables-first-one,
+.turyaTables-SideTables-first-two,
+.turyaTables-SideTables-second-one,
+.turyaTables-SideTables-second-two {
+    text-align: center;
+}
+
+.turyaTables-SideTables-first-one img {
+    width: 50%;
+    height: auto;
+}
+
+.turyaTables-SideTables-first-two img {
+    width: 60%;
+    height: auto;
+}
+
+.turyaTables-SideTables-second-one img {
+    width: 70%;
+    height: auto;
+}
+
+.turyaTables-SideTables-second-two img {
+    width: 70%;
+    height: auto;
+}
+
+
+
+/* Third Row FirstInner First Container */
+
+
+.turyaTables-ThirdRow-Firstcolumn,
+.turyaTables-ThirdRow-Secondcolumn {
+    padding: 0;
+    margin: 0;
+}
+
+.turyaTables-ThirdRow-Secondcolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.turyaTables-Thirdrow-first-one,
+.turyaTables-Thirdrow-first-two,
+.turyaTables-Thirdrow-first-three {
+    text-align: center;
+}
+
+.turyaTables-Thirdrow-first-one img {
+    width: 75%;
+    height: auto;
+}
+
+.turyaTables-Thirdrow-first-two img {
+    width: 80%;
+    height: auto;
+}
+
+.turyaTables-Thirdrow-second-one,
+.turyaTables-Thirdrow-second-two,
+.turyaTables-Thirdrow-second-three {
+    text-align: center;
+}
+
+.turyaTables-Thirdrow-second-one img {
+    width: 70%;
+    height: auto;
+}
+
+.turyaTables-Thirdrow-second-two img {
+    width: 55%;
+    height: auto;
+}
+
+.turyaTables-Thirdrow-second-three img {
+    width: 60%;
+    height: auto;
+}
+
+
+
+
+
+/* Thrid row  SecondInner Second Container */
+
+
+.turyaTables-ThirdRows-Firstcolumn,
+.turyaTables-ThirdRows-Secondcolumn {
+    padding: 0;
+    margin: 0;
+}
+
+.turyaTables-ThirdRows-Secondcolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.turyaTables-Thirdrows-first-one,
+.turyaTables-Thirdrows-first-two,
+.turyaTables-Thirdrows-first-three {
+    text-align: center;
+}
+
+.turyaTables-Thirdrows-first-one img {
+    width: 70%;
+    height: auto;
+}
+
+.turyaTables-Thirdrows-first-two img {
+    width: 55%;
+    height: auto;
+}
+
+.turyaTables-Thirdrows-first-three img {
+    width: 55%;
+    height: auto;
+}
+
+.turyaTables-Thirdrows-second-one,
+.turyaTables-Thirdrows-second-two,
+.turyaTables-Thirdrows-second-three {
+    text-align: center;
+}
+
+.turyaTables-Thirdrows-second-one img {
+    width: 70%;
+    height: auto;
+}
+
+.turyaTables-Thirdrows-second-two img {
+    width: 60%;
+    height: auto;
+}
+
+.turyaTables-Thirdrows-second-three img {
+    width: 60%;
+    height: auto;
+}
+
+
+
+/* Thrid row  ThirdInner Second Container */
+
+.turyaTables-Tables-Firstcolumn,
+.turyaTables-Tables-Secondcolumn,
+.turyaTables-Tables-Thirdcolumn,
+.turyaTables-Tables-Fourthcolumn {
+    text-align: center;
+    align-self: center;
+}
+
+.turyaTables-Tables-Firstcolumn img {
+    width: 60%;
+    height: auto;
+}
+
+.turyaTables-Tables-Secondcolumn img {
+    width: 100%;
+    height: auto;
+}
+
+.turyaTables-Tables-Thirdcolumn img {
+    width: 80%;
+    height: auto;
+}
+
+/* Fourth Row Container - TEAPOY FirstInner SECTIONS */
+
+.turyaTables-Teapoy1-Secondcolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.turyaTables-Teapoy1-first-one,
+.turyaTables-Teapoy1-first-two,
+.turyaTables-Teapoy1-first-oneplus,
+.turyaTables-Teapoy1-first-three {
+    text-align: center;
+}
+
+.turyaTables-Teapoy1-first-one img {
+    width: 70%;
+    height: auto;
+}
+
+.turyaTables-Teapoy1-first-two img {
+    width: 50%;
+    height: auto;
+}
+
+.turyaTables-Teapoy1-first-three img {
+    width: 70%;
+    height: auto;
+}
+
+
+.turyaTables-Teapoy1-second-one,
+.turyaTables-Teapoy1-second-two,
+.turyaTables-Teapoy1-second-three {
+    text-align: center;
+}
+
+.turyaTables-Teapoy1-second-one img {
+    width: 65%;
+    height: auto;
+}
+
+.turyaTables-Teapoy1-second-two img {
+    width: 100%;
+    height: auto;
+}
+
+.turyaTables-Teapoy1-second-three img {
+    width: 60%;
+    height: auto;
+}
+
+/* Fourth Row Container - TEAPOY SecondInner SECTIONS */
+
+.turyaTables-Teapoy2-Firstcolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.turyaTables-Teapoy2-first-one,
+.turyaTables-Teapoy2-first-two,
+.turyaTables-Teapoy2-first-three {
+    text-align: center;
+}
+
+.turyaTables-Teapoy2-first-one img {
+    width: 70%;
+    height: auto;
+}
+
+.turyaTables-Teapoy2-first-two img {
+    width: 50%;
+    height: auto;
+}
+
+.turyaTables-Teapoy2-first-three img {
+    width: 70%;
+    height: auto;
+}
+
+
+.turyaTables-Teapoy2-second-one,
+.turyaTables-Teapoy2-second-two,
+.turyaTables-Teapoy2-second-three {
+    text-align: center;
+}
+
+.turyaTables-Teapoy2-second-one img {
+    width: 50%;
+    height: auto;
+}
+
+.turyaTables-Teapoy2-second-two img {
+    width: 60%;
+    height: auto;
+}
+
+.turyaTables-Teapoy2-second-three img {
+    width: 60%;
+    height: auto;
+}
+
+
+/* Fourth Row Container - TEAPOY ThirdInner SECTIONS */
+
+.turyaTables-Teapoy3-Firstcolumn,
+.turyaTables-Teapoy3-Secondcolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.turyaTables-Teapoy3-first-one,
+.turyaTables-Teapoy3-first-two,
+.turyaTables-Teapoy3-first-three {
+    text-align: center;
+}
+
+.turyaTables-Teapoy3-first-one img {
+    width: 60%;
+    height: auto;
+}
+
+.turyaTables-Teapoy3-first-two img {
+    width: 70%;
+    height: auto;
+}
+
+.turyaTables-Teapoy3-first-three img {
+    width: 55%;
+    height: auto;
+}
+
+
+.turyaTables-Teapoy3-second-one,
+.turyaTables-Teapoy3-second-two,
+.turyaTables-Teapoy3-second-three {
+    text-align: center;
+}
+
+.turyaTables-Teapoy3-second-one img {
+    width: 60%;
+    height: auto;
+}
+
+.turyaTables-Teapoy3-second-two img {
+    width: 50%;
+    height: auto;
+}
+
+.turyaTables-Teapoy3-second-three img {
+    width: 60%;
+    height: auto;
+}
+
+
+/* Fourth Row Container - TEAPOY FourthInner SECTIONS */
+
+.turyaTables-Teapoy4-Firstcolumn,
+.turyaTables-Teapoy4-Secondcolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.turyaTables-Teapoy4-first-one,
+.turyaTables-Teapoy4-first-two,
+.turyaTables-Teapoy4-first-three {
+    text-align: center;
+}
+
+.turyaTables-Teapoy4-first-one img {
+    width: 45%;
+    height: auto;
+}
+
+.turyaTables-Teapoy4-first-two img {
+    width: 50%;
+    height: auto;
+}
+
+.turyaTables-Teapoy4-first-three img {
+    width: 55%;
+    height: auto;
+}
+
+
+.turyaTables-Teapoy4-second-one,
+.turyaTables-Teapoy4-second-two,
+.turyaTables-Teapoy4-second-three {
+    text-align: center;
+}
+
+.turyaTables-Teapoy4-second-one img {
+    width: 65%;
+    height: auto;
+}
+
+.turyaTables-Teapoy4-second-two img {
+    width: 65%;
+    height: auto;
+}
+
+.turyaTables-Teapoy4-second-three img {
+    width: 60%;
+    height: auto;
+}
+
+/* Fourth Row Container - TEAPOY FifthInner SECTIONS */
+
+.turyaTables-Teapoy5-Firstcolumn,
+.turyaTables-Teapoy5-Secondcolumn,
+.turyaTables-Teapoy5-Thirdcolumn {
+    text-align: center;
+    align-self: center;
+}
+
+.turyaTables-Teapoy5-Firstcolumn img {
+    width: 90%;
+    height: auto;
+}
+
+.turyaTables-Teapoy5-Secondcolumn img {
+    width: 70%;
+    height: auto;
+}
+
+.turyaTables-Teapoy5-Thirdcolumn img {
+    width: 70%;
+    height: auto;
+}
+
+
+
+
+
+/* Next Arrow Container */
+
+.turyaTables-NextArrow-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-right: 15px;
+    gap: 10px;
+}
+
+.turyaTables-Next-Heading {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.turyaTables-Next-Arrow-img {
+    width: 30px;
+    height: 40px;
+    padding-bottom: 8px;
+}
+
+
+
+
+/* Media Query */
+
+@media (max-width: 500px) {
+
+    .turyaTables-Tray-Firstcolumn,
+    .turyaTables-Tray-Secondcolumn {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    /* First Row Container */
+
+
+    .turyaTables-Dinning-first-one {
+        margin-top: 0px;
+    }
+
+    .turyaTables-Dinning-first-two,
+    .TuryaAccessories-Dinning-first-three {
+        text-align: center;
+    }
+
+    .turyaTables-Dinning-first-one img {
+        width: 90%;
+        height: auto;
+    }
+
+    .turyaTables-Dinning-first-two img {
+        width: 60%;
+        height: auto;
+    }
+
+    .turyaTables-Dinning-first-three img {
+        width: 100%;
+        height: auto;
+    }
+
+    .turyaTables-Dinning-second-one img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Dinning-second-two img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Dinning-second-three img {
+        width: 70%;
+        height: auto;
+    }
+
+    /* Second Row  SideTables First Container */
+
+    .turyaTables-SideTables-container {
+        margin-top: 30px;
+    }
+
+    .turyaTables-SideTables-Firstcolumn img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-SideTables-Secondcolumn img {
+        width: 75%;
+        height: auto;
+    }
+
+    .turyaTables-SideTables-Thirdcolumn img {
+        width: 95%;
+        height: auto;
+    }
+
+    /* Second Row  SideTables Second Container */
+
+    .turyaTables-SideTables-first-one img {
+        width: 75%;
+        height: auto;
+    }
+
+    .turyaTables-SideTables-first-two img {
+        width: 80%;
+        height: auto;
+    }
+
+    .turyaTables-SideTables-second-one img {
+        width: 80%;
+        height: auto;
+    }
+
+    .turyaTables-SideTables-second-two img {
+        width: 80%;
+        height: auto;
+    }
+
+
+
+    /* Third Row Tables Inner First Container */
+
+    .turyaTables-ThirdRow-Firstcolumn,
+    .turyaTables-Thirdrow-Secondcolumn {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .turyaTables-Thirdrow-first-one img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Thirdrow-first-two img {
+        width: 65%;
+        height: auto;
+    }
+
+    .turyaTables-Thirdrow-second-one img {
+        width: 95%;
+        height: auto;
+    }
+
+    .turyaTables-Thirdrow-second-two img {
+        width: 80%;
+        height: auto;
+    }
+
+    .turyaTables-Thirdrow-second-three img {
+        width: 80%;
+        height: auto;
+    }
+
+    /* Third Row Inner Second Container */
+
+    .turyaTables-ThirdRows-Firstcolumn,
+    .turyaTables-Thirdrows-Secondcolumn {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .turyaTables-Thirdrows-first-one img {
+        width: 75%;
+        height: auto;
+    }
+
+    .turyaTables-Thirdrows-first-two img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Thirdrows-first-three img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Thirdrows-second-one img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Thirdrows-second-two img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Thirdrows-second-three img {
+        width: 70%;
+        height: auto;
+    }
+
+    /* Third Row Inner Third Container */
+    .turyaTables-Tables-Firstcolumn,
+    .turyaTables-Tables-Secondcolumn,
+    .turyaTables-Tables-Thirdcolumn {
+        margin-top: 30px;
+    }
+
+
+    /* Fourth Row Container - TEAPOY FirstInner SECTIONS */
+
+    .turyaTables-Teapoy1-Firstcolumn,
+    .turyaTables-Teapoy1-Secondcolumn {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 30px;
+    }
+
+    .turyaTables-Teapoy1-first-one img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy1-first-two img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy1-first-three img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy1-second-one img {
+        width: 80%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy1-second-two img {
+        width: 100%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy1-second-three img {
+        width: 70%;
+        height: auto;
+    }
+
+    /* Fourth Row Container - TEAPOY SecondInner SECTIONS */
+
+
+    .turyaTables-Teapoy2-Firstcolumn,
+    .turyaTables-Teapoy2-Secondcolumn {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .turyaTables-Teapoy2-first-one img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy2-first-two img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy2-first-three img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy2-second-one img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy2-second-two img {
+        width: 100%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy2-second-three img {
+        width: 70%;
+        height: auto;
+    }
+
+    /* Fourth Row Container - TEAPOY ThirdInner SECTIONS */
+
+
+    .turyaTables-Teapoy3-Firstcolumn,
+    .turyaTables-Teapoy3-Secondcolumn {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .turyaTables-Teapoy3-first-one img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy3-first-two img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy3-first-three img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy3-second-one img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy3-second-two img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy3-second-three img {
+        width: 70%;
+        height: auto;
+    }
+
+    /* Fourth Row Container - TEAPOY FourthInner SECTIONS */
+
+
+    .turyaTables-Teapoy4-Firstcolumn,
+    .turyaTables-Teapoy4-Secondcolumn {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .turyaTables-Teapoy4-first-one img {
+        width: 60%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy4-first-two img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy4-first-three img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy4-second-one img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy4-second-two img {
+        width: 70%;
+        height: auto;
+    }
+
+    .turyaTables-Teapoy4-second-three img {
+        width: 70%;
+        height: auto;
+    }
+
+    /* Fourth Row Container - TEAPOY FifthInner SECTIONS */
+
+    .turyaTables-Teapoy5-Firstcolumn,
+    .turyaTables-Teapoy5-Secondcolumn,
+    .turyaTables-Teapoy5-Thirdcolumn {
+        margin-top: 30px;
+    }
+
+
+
+    /* NEXT Arrow Container */
+
+    .turyaTables-NextArrow-container {
+        align-items: center;
+    }
+
+    .turyaTables-Next-Arrow-img {
+        width: 10%;
+        height: auto;
+
+    }
+
+}
